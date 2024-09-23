@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 0;
+    border-radius: 9px;
+    margin: auto;
+    margin-top: 60px;
+    width: 400px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.header{
+   
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap:10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 30px;
+    font-weight: bold;
+}
+.underline{
+height: 4px;
+width:76px;
+background-color: black;
+border-radius: 9px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 13px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.inputs input{
+    border: none;
+    background-color: rgb(230, 230, 230);
+    height: 30px;
+    border-radius: 6px;
+    width: 190px;
+}
+.forgot-pass{
+   padding-left: 10px;
+   margin-bottom: 20px;
+
+}
+.redirct{
+    cursor: pointer;
+   color: blue;
+}
+.submit-container{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+   
+}
+.submit{
+    background-color: rgb(50, 91, 225);
+    font-weight: bold;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+  
+}
+.submit-grey{
+    background-color: rgb(163, 163, 163);
+    font-weight: bold;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    border-radius: 8px; 
+}
